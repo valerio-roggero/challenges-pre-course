@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+        div{margin: 5px;
+        }
+        body{background-image:url(https://e0.pxfuel.com/wallpapers/974/692/desktop-wallpaper-music-rainbow-music-music-themed-music-and-dance.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: white;
+        }
+        body{font-family: 'Unbounded', sans-serif;
+    }
+    #terms{margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <h1>Compila il form per registrarti!</h1>
+    <h4>Con ValeMusic avrai tutte le tue canzoni a portata di mano</h4>
+   
+    <form onsubmit="">
+        <div>
+        <input type="text" placeholder="nome">
+        <input type="text" placeholder="cognome">
+        </div>
+        <div>  
+            <input type="date" id="birthday" name="birthday">
+            <label for="birthday">data di nascita</label>
+        </div>
+        <div> <input type="number" placeholder="cellulare">
+        </div>
+        <div> <input type="email" placeholder=" mail">
+               <input type="password" placeholder="password">        
+        </div>
+        <div>
+            <label for="birthday">I tuoi gusti musicali:</label>
+            <label for="">Metal</label> <input type="checkbox">
+            <label for="">Rock</label> <input type="checkbox">
+            <label for="">Pop</label> <input type="checkbox">
+            <label for="">Elettronica</label> <input type="checkbox">
+            <input type="text" placeholder="altro">
+        </div>
+        <div id="terms"><label for="birthday">Accetto termini e condizioni d'suo</label>
+            <input type="radio">
+        </div>
+    </form>
+    <button onclick="alert ('Registrazione inviata!')">Invia registrazione</button>  
+</body>
+</html>
